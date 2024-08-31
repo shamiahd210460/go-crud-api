@@ -1,0 +1,44 @@
+[
+    {
+        "ID": "1",
+        "bookId": "B001",
+        "authorId": "A001",
+        "publisherId": "P001",
+        "title": "The Go Programming Language",
+        "publicationDate": "2015-10-26",
+        "isbn": "9780134190440",
+        "pages": 380,
+        "genre": "Programming",
+        "description": "The Go Programming Language is the authoritative resource for any programmer who wants to learn Go.",
+        "price": 42.50,
+        "quantity": 10
+    },
+    {
+        "ID": "2",
+        "bookId": "B002",
+        "authorId": "A002",
+        "publisherId": "P002",
+        "title": "The Pragmatic Programmer",
+        "publicationDate": "1999-10-20",
+        "isbn": "9780201616224",
+        "pages": 352,
+        "genre": "Programming",
+        "description": "The Pragmatic Programmer illustrates the best practices and major pitfalls of many different aspects of software development.",
+"price": 37.95,
+        "quantity": 15
+    },
+    {
+        "ID": "3",
+        "bookId": "B003",
+        "authorId": "A003",
+        "publisherId": "P003",
+        "title": "Clean Code",
+        "publicationDate": "2008-08-01",
+        "isbn": "9780132350884",
+        "pages": 464,
+        "genre": "Programming",
+        "description": "Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code.",
+        "price": 33.99,
+        "quantity": 20
+    }
+]

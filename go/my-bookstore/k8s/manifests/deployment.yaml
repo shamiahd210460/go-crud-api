@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-new-api
+  labels:
+    app: my-new-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-new-api
+  template:
+    metadata:
+      labels:
+        app: my-new-api
+    spec:
+      containers:
+      - name: my-new-go
+        image: shamny/my-api:v2
+        ports:
+        - containerPort: 8081
